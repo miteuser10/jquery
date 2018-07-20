@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bulb Switch</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bulb.js"></script>
+    <style>
+        #box{
+            background-color: aquamarine;
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Glowing Bulb</h1>
+    <img id="imgname" src="images/off.jpg">
+    <br>
+    <button id="onoff">On/Off</button>
+    <hr/>
+    <button id="btnhide">Hide</button>
+    <button id="btnshow">Show</button>
+    <button id="btntoggle">Toggle</button>
+      <p id="text">
+          Do you actually see the jquery-1.3.2.js asked for and loaded with HTTP200 response code, if you inspect the page load with Fiddler tool? – naivists Feb 3 '10 at 19:5ss your script executing before jquery? – Surya Feb 3 '10 at 20:00
+Can you view source and click on js link. Seems like your jquery is not loaded on page. Try Firebug Console Screen to See errors Try also ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js in your script tag – nemke Feb 3 '10 at 20:0Is your script firing before the jquery source is loaded? – Dave Bacher Feb 3 '10 at 20:Surya/Dave, i've gone home now, so i'll check it out again tomorrow, and come back and post, but i think that probably the issue, :/ how embarassing
+      </p>
+      <button id="fadein">fade in</button>
+    <button id="fadeout">fade out</button>
+    <button id="fadetoggle">Toggle</button>
+      <div id="box"></div>
+</body>
+</html>
